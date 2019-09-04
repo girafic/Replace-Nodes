@@ -1,0 +1,11 @@
+{
+  "name": "Replace Nodes",
+  "id": "748537235829892910",
+  "api": "1.0.0",
+  "main": "code.js",
+  "menu": [
+    {"name": "Copy Node", "command": "copy"},
+    {"name": "Replace Selected Nodes", "command": "paste"},
+    {"name": "Clear Cache", "command": "clear"}
+  ]
+}
