@@ -19,7 +19,8 @@ if (figma.command === 'paste') {
             selectedNodes.forEach(element => {
                 if (!findNode.removed) {
                     let clonedNode = findNode.clone();
-                    element.parent.appendChild(clonedNode);
+                    let index = element.parent.children.indexOf(element);
+                    element.parent.insertChild(index, clonedNode);
                     clonedNode.x = element.x;
                     clonedNode.y = element.y;
                     element.remove();
