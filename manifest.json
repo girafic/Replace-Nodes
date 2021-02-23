@@ -6,6 +6,14 @@
   "menu": [
     {"name": "Copy Node", "command": "copy"},
     {"name": "Replace Selected Nodes", "command": "paste"},
+    {"name": "Replace And Adjust Size", "command": "pasteAndAdjustSize"},
+    {"name": "Place Over Selected Nodes", "command": "placeOver"},
     {"name": "Clear Cache", "command": "clear"}
+  ],
+  "relaunchButtons": [
+    {"command": "copy", "name": "Copy Node", "multipleSelection": false},
+    {"command": "paste", "name": "Replace Selected Nodes", "multipleSelection": true},
+    {"command": "pasteAndAdjustSize", "name": "Replace And Adjust Size", "multipleSelection": true},
+    {"command": "clear", "name": "Clear Cache" }
   ]
 }
